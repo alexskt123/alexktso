@@ -10,6 +10,7 @@
   } from 'svelte-materialify';
   import { mdiHomeCity, mdiListBoxOutline } from '@mdi/js';
   import { page } from '$app/stores';
+  import colors from 'svelte-materialify/src/utils/colors';
 
   let mini = true;
   function mouseEnter() {
@@ -22,7 +23,13 @@
 
 <MaterialApp>
   <div class="d-inline-block" on:mouseenter={mouseEnter} on:mouseleave={mouseLeave}>
-    <NavigationDrawer absolute left {mini}>
+    <NavigationDrawer
+      class="theme--dark"
+      fixed
+      left
+      {mini}
+      style={`background-color:${colors.blueGrey['darken-3']}`}
+    >
       <ListItem>
         <span slot="prepend" class="ml-n2">
           <Avatar size={40}><img src="/profile.jpeg" alt="profile" /></Avatar>
