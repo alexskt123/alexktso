@@ -15,17 +15,6 @@
   <ExpansionPanels on:change={onChange} style={'width:100%'} class="mt-10">
     <ExpansionPanel>
       <span slot="header">
-        <strong>Lidl - Senior System Analyst</strong>
-      </span>
-      <ul class="mt-5">
-        <li>Involved in one of the largest emerging technology projects in Hong Kong</li>
-        <li>Conducted system design of various modules in the core application system</li>
-        <li>Led developers from Offshore Development Centers</li>
-        <li>Co-operated with vendors for the system development and architecture design</li>
-      </ul>
-    </ExpansionPanel>
-    <ExpansionPanel>
-      <span slot="header">
         <strong>HKT Limited - Senior System Analyst</strong>
       </span>
       <ul class="mt-5">
