@@ -1,38 +1,38 @@
 <script>
   import { Chip, ExpansionPanel, ExpansionPanels, MaterialApp } from 'svelte-materialify';
 
-//   let value = [0];
+  //   let value = [0];
   let about = { index: '', active: '' };
   /**
-* @param {{ detail: { index: string; active: string; }; }} e
-*/
+   * @param {{ detail: { index: string; active: string; }; }} e
+   */
   function onChange(e) {
     about = e.detail;
   }
 </script>
 
 <MaterialApp>
-  <ExpansionPanels on:change={onChange} style={"width:100%"} class="mt-10">
+  <ExpansionPanels on:change={onChange} style={'width:100%'} class="mt-10">
+    <ExpansionPanel>
+      <span slot="header">
+        <strong>Lidl - Senior System Analyst</strong>
+      </span>
+      <ul class="mt-5">
+        <li>Involved in one of the largest emerging technology projects in Hong Kong</li>
+        <li>Conducted system design of various modules in the core application system</li>
+        <li>Led developers from Offshore Development Centers</li>
+        <li>Co-operated with vendors for the system development and architecture design</li>
+      </ul>
+    </ExpansionPanel>
     <ExpansionPanel>
       <span slot="header">
         <strong>HKT Limited - Senior System Analyst</strong>
       </span>
       <ul class="mt-5">
-        <li>
-            Conducted system design of various modules (i.e. Payment, Dual Input and Withdrawal) in the core application system (CAS) and developed corresponding Front End Web Application and Back End APIs
-        </li>
-        <li>
-            Submitted system design documents to the Mandatory Provident Fund Schemes Authority (MPFA) and liaised with MPFA for the agreement of the system design
-        </li>
-        <li>
-            Managed and coordinated with vendor to develop Payment Instruction Gateway (PIG) for CAS
-        </li>
-        <li>
-            Studied the system feasibility using Maven, Java, Spring Boot, Message Queue, React Js and Oracle
-        </li>
-        <li>
-            Led developers from Offshore Development Centers based in Malaysia and Philippines
-        </li>
+        <li>Involved in one of the largest emerging technology projects in Hong Kong</li>
+        <li>Conducted system design of various modules in the core application system</li>
+        <li>Led developers from Offshore Development Centers</li>
+        <li>Co-operated with vendors for the system development and architecture design</li>
       </ul>
     </ExpansionPanel>
     <ExpansionPanel>
@@ -41,16 +41,24 @@
       </span>
       <ul class="mt-5">
         <li>
-            Implemented various system enhancements and performed ad hoc system maintenance tasks
+          Implemented various system enhancements and performed ad hoc system maintenance tasks
         </li>
         <li>
-            Collected user requirements with Systems Analysts and provided functional specifications
+          Collected user requirements with Systems Analysts and provided functional specifications
         </li>
+        <li>Assisted, coached and gave technical advice to programmers</li>
+        <li>Developed and maintained RESTful APIs</li>
+      </ul>
+    </ExpansionPanel>
+    <ExpansionPanel>
+      <span slot="header">
+        <strong>Ricoh Hong Kong Limited - Analyst Programmer</strong>
+      </span>
+      <ul class="mt-5">
+        <li>Assisted in the Enterprise Resource Planning (ERP) Modernization project</li>
         <li>
-            Assisted, coached and gave technical advice to programmers
-        </li>
-        <li>
-            Developed and maintained RESTful APIs
+          Maintained the core system by performing bug fixing, data patching, housekeeping and
+          system enhancements
         </li>
       </ul>
     </ExpansionPanel>
