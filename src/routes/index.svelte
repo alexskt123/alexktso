@@ -3,58 +3,55 @@
 </script>
 
 <script>
-  import Counter from '$lib/Counter.svelte';
+  import { Container, Row, Col, Divider } from 'svelte-materialify';
+  import Typewriter from 'svelte-typewriter';
+  import Card from '$lib/Card.svelte';
 </script>
 
 <svelte:head>
   <title>Home</title>
-  <meta name="description" content="Svelte demo app" />
+  <meta name="description" content="alexktso Profile App" />
 </svelte:head>
-
-<section>
-  <h1>
-    <div class="welcome">
-      <picture>
-        <source srcset="svelte-welcome.webp" type="image/webp" />
-        <img src="svelte-welcome.png" alt="Welcome" />
-      </picture>
-    </div>
-
-    to your new<br />SvelteKit app
-  </h1>
-
-  <h2>
-    try editing <strong>src/routes/index.svelte</strong>
-  </h2>
-
-  <Counter />
-</section>
-
-<style>
-  section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-  }
-
-  h1 {
-    width: 100%;
-  }
-
-  .welcome {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding: 0 0 calc(100% * 495 / 2048) 0;
-  }
-
-  .welcome img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    display: block;
-  }
-</style>
+<Container>
+  <Row class="d-flex justify-center">
+    <h4><strong>Alex So</strong></h4>
+  </Row>
+  <Row class="d-flex justify-center text-center pt-5">
+    <Typewriter interval={50}>
+      <h6>Passionate in software development and new technologies!</h6>
+    </Typewriter>
+  </Row>
+  <Row class="d-flex justify-center pt-15">
+    <h4><strong>My Personal Projects</strong></h4>
+  </Row>
+  <Row class="d-flex justify-center">
+    <Col>
+      <Card
+        header={'Stock Is Fun'}
+        text={'A website built with Nextjs and Firebase to study Stock'}
+        link={'https://stockisfun.vercel.app'}
+      />
+    </Col>
+    <Col class="ml-2">
+      <Card
+        header={'Share Text'}
+        text={'A website built with Material UI, Nextjs and Firebase for text sharing'}
+        link={'https://share-text-fast.vercel.app'}
+      />
+    </Col>
+    <Col class="ml-2">
+      <Card
+        header={'Profile'}
+        text={'A website built with Svelte to display my personal profile'}
+        link={'https://alexktso.vercel.app'}
+      />
+    </Col>
+    <Col class="ml-2">
+      <Card
+        header={'Excel-ERD'}
+        text={'A transformer program to draw ER diagrams with input excel file, using Node.js and PlantUML'}
+        link={'https://github.com/alexskt123/excel-to-erd'}
+      />
+    </Col>
+  </Row>
+</Container>

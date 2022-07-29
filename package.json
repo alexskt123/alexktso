@@ -24,7 +24,10 @@
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
+    "@mdi/js": "^7.0.96",
     "cookie": "^0.4.1",
+    "svelte-materialify": "^0.3.11",
+    "svelte-typewriter": "^3.0.1",
     "web-vitals": "^2.1.4"
   }
 }
