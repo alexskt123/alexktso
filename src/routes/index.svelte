@@ -7,6 +7,9 @@
   import Typewriter from 'svelte-typewriter';
   import Card from '$lib/Card.svelte';
   import Experience from '$lib/Experience.svelte';
+import Skills from '$lib/Skills.svelte';
+import Footer from '$lib/Footer.svelte';
+import Education from '$lib/Education.svelte';
 </script>
 
 <svelte:head>
@@ -15,7 +18,7 @@
 </svelte:head>
 <Container style="padding-left:70px">
   <Row class="d-flex justify-center text-center">
-    <h4><strong>Alex So</strong></h4>
+    <h5><strong>Alex So</strong></h5>
   </Row>
   <Row class="d-flex justify-center text-center pt-5">
     <Typewriter interval={50}>
@@ -23,7 +26,7 @@
     </Typewriter>
   </Row>
   <Row class="d-flex justify-center text-center pt-15">
-    <h4><strong>My Personal Projects</strong></h4>
+    <h5><strong>My Personal Projects</strong></h5>
   </Row>
   <Row class="d-flex justify-center">
     <Col class="ml-1 mr-1">
@@ -56,7 +59,16 @@
     </Col>
   </Row>
   <Row class="d-flex justify-center text-center pt-15">
-    <h4><strong>My Experience</strong></h4>
+    <h5><strong>Work Experience</strong></h5>
   </Row>
   <Experience />
+  <Row class="d-flex justify-center text-center pt-15">
+    <h5><strong>Education</strong></h5>
+  </Row>
+  <Education/>
+  <Row class="d-flex justify-center text-center pt-15">
+    <h5><strong>Skills</strong></h5>
+  </Row>
+  <Skills />
 </Container>
+<Footer/>
