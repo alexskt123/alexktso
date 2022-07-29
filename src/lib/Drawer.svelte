@@ -39,12 +39,12 @@
             Home
           </ListItem>
         </a>
-        <a sveltekit:prefetch href="/project" on:click={mouseLeave}>
-          <ListItem active={$page.url.pathname === '/project'}>
+        <a sveltekit:prefetch href="/about" on:click={mouseLeave}>
+          <ListItem active={$page.url.pathname === '/about'}>
             <span slot="prepend">
               <Icon path={mdiListBoxOutline} />
             </span>
-            Projects
+            About
           </ListItem>
         </a>
       </List>
