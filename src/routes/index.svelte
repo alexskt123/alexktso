@@ -12,8 +12,8 @@
   <title>Home</title>
   <meta name="description" content="alexktso Profile App" />
 </svelte:head>
-<Container>
-  <Row class="d-flex justify-center">
+<Container style="padding-left:70px">
+  <Row class="d-flex justify-center text-center">
     <h4><strong>Alex So</strong></h4>
   </Row>
   <Row class="d-flex justify-center text-center pt-5">
@@ -21,32 +21,32 @@
       <h6>Passionate in software development and new technologies!</h6>
     </Typewriter>
   </Row>
-  <Row class="d-flex justify-center pt-15">
+  <Row class="d-flex justify-center text-center pt-15">
     <h4><strong>My Personal Projects</strong></h4>
   </Row>
   <Row class="d-flex justify-center">
-    <Col>
+    <Col class="ml-1 mr-1">
       <Card
         header={'Stock Is Fun'}
         text={'A website built with Nextjs and Firebase to study Stock'}
         link={'https://stockisfun.vercel.app'}
       />
     </Col>
-    <Col class="ml-2">
+    <Col class="ml-1 mr-1">
       <Card
         header={'Share Text'}
         text={'A website built with Material UI, Nextjs and Firebase for text sharing'}
         link={'https://share-text-fast.vercel.app'}
       />
     </Col>
-    <Col class="ml-2">
+    <Col class="ml-1 mr-1">
       <Card
         header={'Profile'}
         text={'A website built with Svelte to display my personal profile'}
         link={'https://alexktso.vercel.app'}
       />
     </Col>
-    <Col class="ml-2">
+    <Col class="ml-1 mr-1">
       <Card
         header={'Excel-ERD'}
         text={'A transformer program to draw ER diagrams with input excel file, using Node.js and PlantUML'}

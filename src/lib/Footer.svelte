@@ -3,7 +3,7 @@
 </script>
 
 <MaterialApp>
-  <Footer class="blue-grey theme--dark justify-center" absolute>
+  <Footer class="blue-grey theme--dark justify-center" paddless>
     <span>
       Powered by <a href="https://kit.svelte.dev">Svelte</a> &
       <a href="https://vercel.com">Vercel</a>
