@@ -17,7 +17,7 @@
 
 <MaterialApp>
   <Row class="d-flex justify-center mt-4 mb-4">
-    <Card outlined style="max-width:300px;min-height:200px;">
+    <Card outlined style="min-width:200px;max-width:300px;min-height:200px;">
       <div class="pl-4 pr-4 pt-3">
         <Chip class="teal lighten-5">
           <strong>{header}</strong>
