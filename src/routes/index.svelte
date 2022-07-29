@@ -3,9 +3,10 @@
 </script>
 
 <script>
-  import { Container, Row, Col, Divider } from 'svelte-materialify';
+  import { Container, Row, Col } from 'svelte-materialify';
   import Typewriter from 'svelte-typewriter';
   import Card from '$lib/Card.svelte';
+  import Experience from '$lib/Experience.svelte';
 </script>
 
 <svelte:head>
@@ -54,4 +55,8 @@
       />
     </Col>
   </Row>
+  <Row class="d-flex justify-center text-center pt-15">
+    <h4><strong>My Experience</strong></h4>
+  </Row>
+  <Experience />
 </Container>

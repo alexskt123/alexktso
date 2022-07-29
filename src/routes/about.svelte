@@ -11,7 +11,7 @@
   <meta name="description" content="alexktso Profile App" />
 </svelte:head>
 
-<Container>
+<Container style="padding-left:70px">
   <Row class="d-flex justify-center">
     You attempted to explore me more, sadly there is nothing :)
   </Row>
