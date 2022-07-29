@@ -1,6 +1,6 @@
 <script>
   import { Chip, Row, Col, MaterialApp } from 'svelte-materialify';
-import SkillsChip from './components/SkillsChip.svelte';
+  import SkillsChip from './components/SkillsChip.svelte';
 </script>
 
 <MaterialApp>

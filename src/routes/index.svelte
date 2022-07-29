@@ -7,9 +7,9 @@
   import Typewriter from 'svelte-typewriter';
   import Card from '$lib/Card.svelte';
   import Experience from '$lib/Experience.svelte';
-import Skills from '$lib/Skills.svelte';
-import Footer from '$lib/Footer.svelte';
-import Education from '$lib/Education.svelte';
+  import Skills from '$lib/Skills.svelte';
+  import Footer from '$lib/Footer.svelte';
+  import Education from '$lib/Education.svelte';
 </script>
 
 <svelte:head>
@@ -65,10 +65,10 @@ import Education from '$lib/Education.svelte';
   <Row class="d-flex justify-center text-center pt-15">
     <h5><strong>Education</strong></h5>
   </Row>
-  <Education/>
+  <Education />
   <Row class="d-flex justify-center text-center pt-15">
     <h5><strong>Skills</strong></h5>
   </Row>
   <Skills />
 </Container>
-<Footer/>
+<Footer />

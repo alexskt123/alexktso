@@ -1,5 +1,5 @@
 <script>
-  import { Chip, ExpansionPanel, ExpansionPanels, MaterialApp } from 'svelte-materialify';
+  import { ExpansionPanel, ExpansionPanels, MaterialApp } from 'svelte-materialify';
 
   //   let value = [0];
   let about = { index: '', active: '' };
@@ -49,6 +49,15 @@
           Maintained the core system by performing bug fixing, data patching, housekeeping and
           system enhancements
         </li>
+      </ul>
+    </ExpansionPanel>
+    <ExpansionPanel>
+      <span slot="header">
+        <strong>Aedify Technology Limited - Web Programmer</strong>
+      </span>
+      <ul class="mt-5">
+        <li>Implemented the registration system of the website with Facebook API</li>
+        <li>Built the interface and the functionality of the website using MVC infrastructure</li>
       </ul>
     </ExpansionPanel>
   </ExpansionPanels>
