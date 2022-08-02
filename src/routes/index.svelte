@@ -4,12 +4,13 @@
 
 <script>
   import { Container, Row, Col } from 'svelte-materialify';
-  import Typewriter from 'svelte-typewriter';
   import Card from '$lib/Card.svelte';
   import Experience from '$lib/Experience.svelte';
   import Skills from '$lib/Skills.svelte';
   import Footer from '$lib/Footer.svelte';
   import Education from '$lib/Education.svelte';
+  import Sharing from '$lib/Sharing.svelte';
+  import CustomTypeWrite from '$lib/components/CustomTypeWrite.svelte';
 </script>
 
 <svelte:head>
@@ -17,14 +18,23 @@
   <meta name="description" content="alexktso Profile App" />
 </svelte:head>
 <Container style="padding-left:70px">
-  <Row class="d-flex justify-center text-center">
-    <h5><strong>Alex So</strong></h5>
+  <Row class="d-flex justify-center text-center mt-10">
+    <h4><strong>Alex So</strong></h4>
   </Row>
-  <Row class="d-flex justify-center text-center pt-5">
-    <Typewriter interval={50}>
-      <h6>Passionate in software development and new technologies!</h6>
-    </Typewriter>
+  <Row class="d-flex justify-center text-center pt-2">
+    <CustomTypeWrite />
   </Row>
+  <Row class="d-flex justify-center text-center pt-2">
+    <Sharing />
+  </Row>
+  <Row class="d-flex justify-center text-center pt-15">
+    <h5><strong>Work Experience</strong></h5>
+  </Row>
+  <Experience />
+  <Row class="d-flex justify-center text-center pt-15">
+    <h5><strong>Education</strong></h5>
+  </Row>
+  <Education />
   <Row class="d-flex justify-center text-center pt-15">
     <h5><strong>My Personal Projects</strong></h5>
   </Row>
@@ -58,14 +68,6 @@
       />
     </Col>
   </Row>
-  <Row class="d-flex justify-center text-center pt-15">
-    <h5><strong>Work Experience</strong></h5>
-  </Row>
-  <Experience />
-  <Row class="d-flex justify-center text-center pt-15">
-    <h5><strong>Education</strong></h5>
-  </Row>
-  <Education />
   <Row class="d-flex justify-center text-center pt-15">
     <h5><strong>Skills</strong></h5>
   </Row>

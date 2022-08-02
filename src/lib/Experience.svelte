@@ -12,7 +12,7 @@
 </script>
 
 <MaterialApp>
-  <ExpansionPanels on:change={onChange} style={'width:100%'} class="mt-10">
+  <ExpansionPanels on:change={onChange} style={'width:100%'} class="mt-5">
     <ExpansionPanel>
       <span slot="header">
         <strong>HKT Limited - Senior System Analyst</strong>
