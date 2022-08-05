@@ -30,7 +30,7 @@
   </Row>
   <SectionHeader headerName={'Work Experience'} />
   <Experience />
-  <SectionHeader headerName={'Eductaion'} />
+  <SectionHeader headerName={'Education'} />
   <Education />
   <SectionHeader headerName={'My Personal Projects'} />
   <PersonalProjects />

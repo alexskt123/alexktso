@@ -1,17 +1,17 @@
 export const personalProjects = [
   {
     header: 'Stock Is Fun',
-    text: 'A website built with Nextjs and Firebase to study Stock',
+    text: 'A web/app built with Nextjs, Firebase, PWA, Nodemailer and Bootstrap to study Stock',
     link: 'https://stockisfun.vercel.app'
   },
   {
     header: 'Share Text',
-    text: 'A website built with Material UI, Nextjs and Firebase for text sharing',
+    text: 'A text sharing/storing tool with Material UI, Nextjs and Firebase',
     link: 'https://share-text-fast.vercel.app'
   },
   {
     header: 'Profile',
-    text: 'A website built with Svelte to display my personal profile',
+    text: 'My personal profile, built with Svelte',
     link: 'https://alexktso.vercel.app'
   },
   {
