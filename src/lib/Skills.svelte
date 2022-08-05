@@ -5,7 +5,7 @@
 </script>
 
 <MaterialApp>
-  <Row class="mt-5">
+  <Row class="mt-5 justify-center">
     {#each skills as skill}
       <SkillsChip name={skill} />
     {/each}
