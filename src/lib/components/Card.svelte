@@ -21,10 +21,10 @@
     <Card
       outlined
       class="backg"
-      style={`min-width:200px;max-width:300px;min-height:190px;background-color:${colors.teal['lighten-5']}`}
+      style={`min-width:200px;max-width:300px;min-height:190px;background-color:${colors.lightBlue['lighten-5']}`}
     >
       <div class="pl-4 pr-4 pt-3">
-        <Chip class="teal lighten-4">
+        <Chip class="theme--dark cyan darken-4">
           <strong>{header}</strong>
         </Chip>
         <a href={link}>
