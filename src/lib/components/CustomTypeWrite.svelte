@@ -3,5 +3,5 @@
 </script>
 
 <Typewriter interval={50}>
-  <span>{'Passionate in software development and new technologies!'}</span>
+  <span class="font-weight-thin">{'Passionate in software development and new technologies!'}</span>
 </Typewriter>

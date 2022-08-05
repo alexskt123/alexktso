@@ -1,6 +1,6 @@
 <script>
   import { Button, Icon, MaterialApp } from 'svelte-materialify';
-  import { mdiApps, mdiGithub, mdiLinkedin } from '@mdi/js';
+  import { mdiApps, mdiGithub, mdiLinkedin, mdiEmailOutline } from '@mdi/js';
 </script>
 
 <MaterialApp>
@@ -17,6 +17,11 @@
   <a href="https://www.linkedin.com/in/alex-so-724135147/">
     <Button fab class="blue white-text">
       <Icon path={mdiLinkedin} />
+    </Button>
+  </a>
+  <a href="mailto: alexskt123@gmail.com">
+    <Button fab class="indigo white-text">
+      <Icon path={mdiEmailOutline} />
     </Button>
   </a>
 </MaterialApp>
