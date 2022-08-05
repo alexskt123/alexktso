@@ -1,5 +1,7 @@
 <script>
-  import { Chip, ExpansionPanel, ExpansionPanels, MaterialApp } from 'svelte-materialify';
+  import { ExpansionPanels, MaterialApp } from 'svelte-materialify';
+  import ShowCaseExpansionPanel from './components/ShowCaseExpansionPanel.svelte';
+  import { education } from './config';
 
   //   let value = [0];
   let about = { index: '', active: '' };
@@ -13,29 +15,8 @@
 
 <MaterialApp>
   <ExpansionPanels on:change={onChange} style={'width:100%'} class="mt-5">
-    <ExpansionPanel>
-      <span slot="header">
-        <strong>The Hong Kong University of Science & Technology</strong>
-      </span>
-      <ul class="mt-5">
-        <li>Bachelor of Engineering in Computer Science</li>
-      </ul>
-    </ExpansionPanel>
-    <ExpansionPanel>
-      <span slot="header">
-        <strong>The University of London</strong>
-      </span>
-      <ul class="mt-5">
-        <li>Bachelor of Laws</li>
-      </ul>
-    </ExpansionPanel>
-    <ExpansionPanel>
-      <span slot="header">
-        <strong>The University of Hong Kong</strong>
-      </span>
-      <ul class="mt-5">
-        <li>Postgraduate Certificate in Laws</li>
-      </ul>
-    </ExpansionPanel>
+    {#each education as edu}
+      <ShowCaseExpansionPanel item={edu} />
+    {/each}
   </ExpansionPanels>
 </MaterialApp>
