@@ -21,7 +21,7 @@
     <Card
       outlined
       class="backg"
-      style={`min-width:200px;max-width:300px;min-height:190px;background-color:${colors.lightBlue['lighten-5']}`}
+      style={`min-width:320px;max-width:320px;min-height:190px;background-color:${colors.lightBlue['lighten-5']}`}
     >
       <div class="pl-4 pr-4 pt-3">
         <Chip class="theme--dark cyan darken-4">
