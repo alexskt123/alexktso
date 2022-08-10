@@ -8,7 +8,6 @@
   <Footer
     class="blue-grey theme--dark justify-center"
     style={`margin-top:50px;${!isMobile() ? 'padding-left:70px' : ''}`}
-    paddless
   >
     <span>
       Written in <a href="https://kit.svelte.dev">Svelte</a> & Deployed to

@@ -26,7 +26,6 @@
     <NavigationDrawer
       class="theme--dark"
       fixed
-      left
       {mini}
       style={`background-color:${colors.blueGrey['darken-3']}`}
     >
