@@ -9,7 +9,7 @@
 
 <MaterialApp>
   <Col class="ml-1" style="padding: 0.1rem">
-    <Chip outlined class="indigo-text" style="min-width:200px">
+    <Chip outlined class="indigo-text">
       <Icon path={mdiCheckCircleOutline} />
       <span>{name}</span>
     </Chip>

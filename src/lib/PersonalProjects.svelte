@@ -10,7 +10,7 @@
 
 <Row class="d-flex justify-center">
   {#each personalProjects as personalProject}
-    <Col class="ml-1 mr-1">
+    <Col class="ml-1 mr-1 pt-0 pb-0">
       <Card {...personalProject} />
     </Col>
   {/each}

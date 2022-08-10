@@ -20,8 +20,7 @@
   <Row class="d-flex justify-center mt-4 mb-4">
     <Card
       outlined
-      class="backg"
-      style={`min-width:320px;max-width:320px;min-height:190px;background-color:${colors.lightBlue['lighten-5']}`}
+      style={`padding;min-width:200px;min-height:190px;background-color:${colors.lightBlue['lighten-5']}`}
     >
       <div class="pl-4 pr-4 pt-3">
         <Chip class="theme--dark cyan darken-4">
