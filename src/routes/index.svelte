@@ -12,13 +12,14 @@
   import CustomTypeWrite from '$lib/components/CustomTypeWrite.svelte';
   import PersonalProjects from '$lib/PersonalProjects.svelte';
   import SectionHeader from '$lib/components/SectionHeader.svelte';
+  import { isMobile } from 'is-mobile';
 </script>
 
 <svelte:head>
   <title>Alex's Profile</title>
   <meta name="description" content="alexktso Profile App" />
 </svelte:head>
-<Container style="padding-left:70px">
+<Container style={!isMobile() ? 'padding-left:70px' : ''}>
   <Row class="d-flex justify-center text-center mt-10">
     <h4><strong>Alex So</strong></h4>
   </Row>
