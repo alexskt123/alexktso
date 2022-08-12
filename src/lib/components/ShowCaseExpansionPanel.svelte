@@ -15,7 +15,7 @@
   </span>
   <ul class="mt-5">
     {#each item.listItems as listItem}
-      <li class="font-weight-thin">
+      <li class="text--secondary">
         {listItem}
       </li>
     {/each}
