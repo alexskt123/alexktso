@@ -22,7 +22,7 @@
 </script>
 
 <MaterialApp>
-  <div class="d-inline-block" on:mouseenter={mouseEnter} on:mouseleave={mouseLeave}>
+  <div on:mouseenter={mouseEnter} on:mouseleave={mouseLeave}>
     <NavigationDrawer
       class="theme--dark"
       fixed

@@ -10,12 +10,12 @@
 </script>
 
 <ExpansionPanel>
-  <span slot="header">
+  <span slot="header" class="deep-purple-text">
     <strong>{item.header}</strong>
   </span>
   <ul class="mt-5">
     {#each item.listItems as listItem}
-      <li class="font-weight-thin">
+      <li class="text--secondary">
         {listItem}
       </li>
     {/each}

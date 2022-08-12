@@ -15,7 +15,9 @@
   {#if !isMobile()}
     <Drawer />
   {/if}
-  <slot />
+  <div style="background-color:snow;min-height:100vh">
+    <slot />
+  </div>
 {:else}
   <Row class="d-flex justify-center">
     <Jumper size="60" color="#FF3E00" unit="px" duration="1s" />
