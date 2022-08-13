@@ -19,14 +19,14 @@
 <Row class="d-flex justify-center mt-4 mb-4">
   <Card
     outlined
-    style={`padding;min-width:200px;min-height:190px;background-color:${colors.lightBlue['lighten-5']}`}
+    style={`padding;min-width:200px;min-height:190px;background-color:${colors.indigo['lighten-5']}`}
   >
     <div class="pl-4 pr-4 pt-3">
-      <Chip class="theme--dark cyan darken-4">
+      <Chip class="theme--dark indigo darken-4">
         <strong>{header}</strong>
       </Chip>
       <a href={link}>
-        <Button fab size="x-small" class="blue white-text">
+        <Button fab size="x-small" class="indigo lighten-1 white-text">
           <Icon path={mdiLinkVariant} />
         </Button>
       </a>
