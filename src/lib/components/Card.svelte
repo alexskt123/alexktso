@@ -21,12 +21,12 @@
     outlined
     style={`padding;min-width:200px;min-height:190px;background-color:${colors.indigo['lighten-5']}`}
   >
-    <div class="pl-4 pr-4 pt-3">
+    <div class="pt-3 justify-center d-flex">
       <Chip class="theme--dark indigo darken-4">
         <strong>{header}</strong>
       </Chip>
       <a href={link}>
-        <Button fab size="x-small" class="indigo lighten-1 white-text">
+        <Button fab size="x-small" class="ml-1 indigo lighten-1 white-text">
           <Icon path={mdiLinkVariant} />
         </Button>
       </a>
