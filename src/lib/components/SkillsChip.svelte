@@ -1,5 +1,5 @@
 <script>
-  import { Col, Chip, MaterialApp, Icon } from 'svelte-materialify';
+  import { Chip, Icon } from 'svelte-materialify';
   import { mdiCheckCircleOutline } from '@mdi/js';
   export /**
    * @type {any}
@@ -7,11 +7,7 @@
   let name;
 </script>
 
-<MaterialApp>
-  <Col class="ml-1" style="padding: 0.1rem">
-    <Chip outlined class="indigo-text">
-      <Icon path={mdiCheckCircleOutline} />
-      <span>{name}</span>
-    </Chip>
-  </Col>
-</MaterialApp>
+<Chip outlined class="indigo-text ml-1 mt-1">
+  <Icon path={mdiCheckCircleOutline} />
+  <span>{name}</span>
+</Chip>
