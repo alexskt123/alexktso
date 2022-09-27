@@ -6,10 +6,16 @@ export const skills = [
   { type: 'Back-end', label: 'Node.js' },
   { type: 'Back-end', label: 'Next.js' },
   { type: 'Back-end', label: 'Nest.js' },
+  { type: 'Back-end', label: 'Redis' },
   { type: 'Back-end', label: 'Kafka' },
   { type: 'Back-end', label: 'Laravel' },
   { type: 'Back-end', label: 'Spring Boot' },
-  { type: 'Database', label: 'Mongo' },
+  { type: 'Database', label: 'MongoDB' },
+  { type: 'Database', label: 'Firebase' },
   { type: 'Database', label: 'MySQL' },
-  { type: 'Database', label: 'PostgreSQL' }
+  { type: 'Database', label: 'PostgreSQL' },
+  { type: 'Cloud', label: 'Vercel' },
+  { type: 'Cloud', label: 'Azure' },
+  { type: 'CI/CD', label: 'CircleCI' },
+  { type: 'CI/CD', label: 'SonarCloud' }
 ];

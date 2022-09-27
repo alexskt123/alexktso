@@ -3,7 +3,7 @@
   import SkillsChip from './components/SkillsChip.svelte';
   import { skills } from './config';
 
-  const tabs = ['Front-end', 'Back-end', 'Database'];
+  const tabs = ['Front-end', 'Back-end', 'Database', 'Cloud', 'CI/CD'];
 </script>
 
 <Tabs vertical>
