@@ -19,7 +19,7 @@
 <Row class="d-flex justify-center mt-4 mb-4">
   <Card
     outlined
-    style={`padding;min-width:200px;min-height:190px;background-color:${colors.indigo['lighten-5']}`}
+    style={`padding;min-width:200px;max-width:500px;min-height:190px;background-color:${colors.indigo['lighten-5']}`}
   >
     <div class="pt-3 justify-center d-flex">
       <Chip class="theme--dark indigo darken-4">

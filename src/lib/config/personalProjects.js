@@ -23,5 +23,15 @@ export const personalProjects = [
     header: 'Chatbot',
     text: 'An attempt to build a website with chatbot to answer legal questions from users',
     link: 'https://botchatlaw.vercel.app'
+  },
+  {
+    header: 'Nestjs Starter',
+    text: 'A repository providing a starter pack for implementation of Rest APIs, Kafka, GraphQL, Postgres in Nestjs',
+    link: 'https://github.com/alexskt123/nestjs-starter'
+  },
+  {
+    header: 'MF Example',
+    text: 'A repository providing an example for building a micro frontend',
+    link: 'https://github.com/alexskt123/example-mf'
   }
 ];

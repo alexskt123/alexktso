@@ -1,5 +1,15 @@
 export const experience = [
   {
+    header: 'TEKsystems - Full Stack Lead',
+    listItems: [
+      'Assigned to Lidl Asia Pte. Limited for building new microservices (MS)/micro frontends (MF) and revamping existing services into MS &MF',
+      'Designed and polished the overall system architecture to fulfill the requirements from product owner and scrum master',
+      'Performed hands-on coding, unit tests and CI/CD pipelines in compliance with company’s software policies, coding best practices and naming conventions',
+      'Led developers from Offshore Development Centers',
+      'Guided junior full stack engineers throughout the implementations of both MS and MF'
+    ]
+  },
+  {
     header: 'HKT Limited - Senior System Analyst',
     listItems: [
       'Involved in one of the largest emerging technology projects in Hong Kong',
